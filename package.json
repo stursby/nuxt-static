@@ -1,0 +1,14 @@
+{
+  "name": "nuxt-static",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "nuxt": "^1.0.0-rc4"
+  }
+}
