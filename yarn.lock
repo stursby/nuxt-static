@@ -2705,7 +2705,7 @@ minimist@1.2.0, minimist@^1.2.0:
 
 mkdirp-promise@^5.0.1:
   version "5.0.1"
-  resolved "https://npm.neo9.pro/repository/npm-global/mkdirp-promise/-/mkdirp-promise-5.0.1.tgz#e9b8f68e552c68a9c1713b84883f7a1dd039b8a1"
+  resolved "https://registry.yarnpkg.com/mkdirp-promise/-/mkdirp-promise-5.0.1.tgz#e9b8f68e552c68a9c1713b84883f7a1dd039b8a1"
   dependencies:
     mkdirp "*"
 
@@ -2866,7 +2866,7 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nuxt@^1.0.0-rc4:
+nuxt@^1.0.0-rc5:
   version "1.0.0-rc4"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-1.0.0-rc4.tgz#e7b94473cd2652afa7236e12fa5d904b2c496b9a"
   dependencies:

@@ -12,9 +12,12 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'A static site powered by Nuxt.js' }
     ]
   },
+
+  // Nuxt environment variables
   env: {
     dataDir: join(__dirname, 'dist/data')
   },
+  
   // Generate dynamic routes
   generate: {
     routes: () => {
