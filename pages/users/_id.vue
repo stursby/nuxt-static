@@ -3,7 +3,7 @@
     <h3>{{ user.name }}</h3>
     <p>{{ user.email }}</p>
     <p>{{ user.phone }}</p>
-    <router-link to="/">&larr; go back</router-link>
+    <router-link to="/users">&larr; go back</router-link>
   </div>
 </template>
 

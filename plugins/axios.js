@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import axios from 'axios'
 
 let baseURL = 'https://jsonplaceholder.typicode.com'
@@ -36,3 +37,12 @@ if (process.server && process.static) {
 }
 
 export default instance
+=======
+const axios = require('axios')
+
+const instance = axios.create({
+  baseURL: 'https://jsonplaceholder.typicode.com'
+})
+
+module.exports = instance
+>>>>>>> 83d466db19d42b0b781b6832bc9bea175869ce9c
