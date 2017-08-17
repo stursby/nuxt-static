@@ -12,8 +12,8 @@ import axios from '~/plugins/axios'
 
 export default {
   async asyncData({ params }) {
-    const { data } = await axios.get(`users/${params.id}`)
-    return { 
+    const { data } = await axios.get(`/users/${params.id}`)
+    return {
       user: data
     }
   },
