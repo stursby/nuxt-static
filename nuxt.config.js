@@ -1,4 +1,5 @@
 const axios = require('axios')
+const { join } = require('path')
 
 module.exports = {
 
@@ -11,7 +12,9 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'A static site powered by Nuxt.js' }
     ]
   },
-
+  env: {
+    dataDir: join(__dirname, 'dist/data')
+  },
   // Generate dynamic routes
   generate: {
     routes: () => {

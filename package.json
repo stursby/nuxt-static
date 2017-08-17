@@ -9,6 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.16.2",
+    "mkdirp-promise": "^5.0.1",
     "nuxt": "^1.0.0-rc4"
   }
 }

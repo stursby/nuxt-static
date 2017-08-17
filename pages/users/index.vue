@@ -10,11 +10,11 @@
 </template>
 
 <script>
-import axios from 'axios'
+import axios from '~/plugins/axios'
 
 export default {
   async asyncData() {
-    const { data } = await axios.get('https://jsonplaceholder.typicode.com/users')
+    const { data } = await axios.get('/users')
     return {
       users: data
     }
