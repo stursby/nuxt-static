@@ -3,8 +3,6 @@
     <h2>Hello {{ name }}</h2>
     <nuxt-link to="/about">About</nuxt-link> &nbsp;
     <nuxt-link to="/users">Users</nuxt-link>
-    <br>
-    <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg" alt="kitten">
   </div>
 </template>
 
