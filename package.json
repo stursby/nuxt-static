@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate"
+    "build": "nuxt generate",
+    "deploy": "surge -p dist -d https://nuxt-static.surge.sh"
   },
   "license": "MIT",
   "dependencies": {
