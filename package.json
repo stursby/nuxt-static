@@ -1,15 +1,20 @@
 {
   "name": "nuxt-static",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt generate"
+    "build": "nuxt generate",
+    "deploy": "surge -p dist/ -d https://nuxtstatic.surge.sh"
   },
   "license": "MIT",
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.18.0",
     "mkdirp-promise": "^5.0.1",
-    "nuxt": "^1.0.0-rc5"
+    "nuxt": "^2.3.4"
   }
 }

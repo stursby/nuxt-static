@@ -10,14 +10,12 @@
 </template>
 
 <script>
-import axios from '~/plugins/axios'
+import { api } from '~/plugins/axios'
 
 export default {
   async asyncData() {
-    const { data } = await axios.get('/users')
-    return {
-      users: data
-    }
+    const { data: users } = await api.get('/users')
+    return { users }
   },
 
   head: {

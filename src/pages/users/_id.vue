@@ -8,14 +8,12 @@
 </template>
 
 <script>
-import axios from '~/plugins/axios'
+import { api } from '~/plugins/axios'
 
 export default {
   async asyncData({ params }) {
-    const { data } = await axios.get(`/users/${params.id}`)
-    return {
-      user: data
-    }
+    const { data: user } = await api.get(`/users/${params.id}`)
+    return { user }
   },
 
   head() {
